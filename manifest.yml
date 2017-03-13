@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: HelmetHealthDemo
+  host: HelmetHealthDemo
+  disk_quota: 1024M
+  services:
+  - Visual Recognition-tt
+  - Text to Speech-8z
+  - Internet of Things Platform-adp
+  - Cloudant NoSQL DB-7b
